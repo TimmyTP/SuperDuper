@@ -10,4 +10,10 @@ public class Portfolio
     {
         CreationTime = DateTime.Now;
     }
+    
+    public Portfolio(string Name)
+    {
+        CreationTime = DateTime.Now;
+        PortfolioName = Name;
+    }
 }
