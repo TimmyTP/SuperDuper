@@ -1,0 +1,13 @@
+public class Portfolio
+{
+    public virtual string PortfolioName { get; set; }
+
+    public virtual string Description { get; set; }
+
+    public virtual DateTime CreationTime { get; set; }
+
+    public Portfolio()
+    {
+        CreationTime = DateTime.Now;
+    }
+}
